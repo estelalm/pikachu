@@ -47,9 +47,9 @@ main{
 .title__transparent{
     position: absolute;
     color: #fff5 ;
-    font-size:27vw;
-    top:50%;
-    left:50%;
+    font-size: 27vw;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -80%);
     z-index: -1;
 }
@@ -86,4 +86,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    height: 20px;
+}
+
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
